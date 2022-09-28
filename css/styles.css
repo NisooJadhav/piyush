@@ -467,18 +467,21 @@ footer {
 .project-image {
   float: left;
 }
+.project-image img {
+  padding: 25 25;
+  width: 25rem;
+}
 .project-info {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 300px;
-  padding: 15px;
+  padding: 3rem;
 }
 .project-info h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
-  margin: 0 0 15px 0;
 }
 .project-info p {
   color: #74808a;
@@ -710,6 +713,11 @@ footer {
   }
   .project-image {
     display: none;
+  }
+  .project-image img {
+    width: 8rem;
+    padding: 3rem;
+    margin: 3rem
   }
   .project-info {
     position: relative;

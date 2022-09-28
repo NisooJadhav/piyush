@@ -170,7 +170,7 @@
         <div class="row">
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/pccoe.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -189,23 +189,20 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/pccoe.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
               <h3>Autonomous Mobile Robot Base With Modular Extensions</h3>
               <p>Jan 2021 - May 2022</p>
               <p>
-                We developed a generic AMR base chassis which will have the
-                ability to navigate from one point to another in dynamic
-                environments and can be used to mount any additional attachments
-                like a robotic arm, storage units, etc. as per the needs of the
-                end-user. Our design used ROS for processing all the sensor data
-                and path planning for the robot. We used advanced sensors like
-                the LiDAR, Tracking Camera, Depth Camera and IMU for SLAM and
-                Autonomous Navigation. Our AMR will certainly add a lot of value
-                to the industrial sector and automate the tiring and repetitive
-                task of manually managing material in large warehouses.
+                Developed a generic AMR base chassis having ability to navigate
+                from one point to another in dynamic environments and can be
+                used to mount any additional attachments like a robotic arm,
+                storage units, etc. as per the needs of the end-user. Our design
+                used ROS for processing all the sensor data and path planning
+                for the robot using advanced sensors like the LiDAR, Tracking
+                Camera, Depth Camera and IMU for SLAM and Autonomous Navigation.
               </p>
             </div>
             <!-- End .project-info -->
@@ -214,7 +211,7 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/automatons.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -231,7 +228,7 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/automatons.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -253,7 +250,7 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/automatons.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -272,7 +269,7 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/automatons.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -291,7 +288,7 @@
 
           <div class="project shadow-large">
             <div class="project-image">
-              <img src="images/automatons.png" />
+              <img src="images/robot.png" />
             </div>
             <!-- End .project-image -->
             <div class="project-info">
@@ -348,24 +345,21 @@
     <div id="contact">
       <h2>Get in Touch</h2>
       <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-          <input
-            type="hidden"
-            name="_subject"
-            value="Contact request from personal website"
-          />
-          <input
-            type="email"
-            name="_replyto"
-            placeholder="Your email"
-            required
-          />
+        <form
+          class="gform"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbwsb3rQoNir-5hjK1qzNqLbPLDWP6rZ2bsJRYZy-gR5rM2mhs_gEVAQz4tzLAFxfMGs/exec"
+        >
+          <input type="email" name="email" placeholder="Your email" required />
           <textarea
             name="message"
             placeholder="Your message"
             required
           ></textarea>
-          <button type="submit">Send</button>
+          <button type="submit">Send 🚀</button>
+          <div style="display: none" class="thankyou_message">
+            <h2>Thanks for contacting us! We will get back to you soon!</h2>
+          </div>
         </form>
       </div>
       <!-- End #contact-form -->
@@ -424,5 +418,10 @@
       let a = new Date().getFullYear();
       document.querySelector("#current-year").innerHTML = a + ", ";
     </script>
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="form-submission-handler.js"
+    ></script>
   </body>
 </html>
