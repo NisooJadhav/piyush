@@ -1,19 +1,96 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Piyush Salunke - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="images/flash.png" type="image/x-icon" />
+    <title>Piyush Salunke - Engineer Portfolio</title>
+
+    <!-- Primary Meta Tags -->
+    <meta
+      name="title"
+      content="Piyush Salunke - Engineer Portfolio | FORVIA Faurecia R&D"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Piyush Salunke - Engineer at FORVIA Faurecia R&D, specializing in Generative AI, Automation, and Electronics. View projects, experience, and skills."
+    />
+    <meta name="author" content="Piyush Salunke" />
+    <meta
+      name="keywords"
+      content="Piyush Salunke, FORVIA Engineer, Robotics Engineer, Electronics Engineer, PCB Designer, Team Automatons, PCCOE, Pune Engineer, Generative AI Engineer"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://piyush-salunke.vercel.app/" />
+    <meta
+      property="og:title"
+      content="Piyush Salunke - Engineer Portfolio | FORVIA Faurecia R&D"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio of Piyush Salunke - Engineer at FORVIA Faurecia R&D, specializing in Generative AI, Automation, and Electronics. View projects, experience, and skills."
+    />
+    <meta
+      property="og:image"
+      content="https://piyush-salunke.vercel.app//images/face.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://piyush-salunke.vercel.app/" />
+    <meta
+      property="twitter:title"
+      content="Piyush Salunke - Engineer Portfolio | FORVIA Faurecia R&D"
+    />
+    <meta
+      property="twitter:description"
+      content="Portfolio of Piyush Salunke - Engineer at FORVIA Faurecia R&D, specializing in Generative AI, Automation, and Electronics. View projects, experience, and skills."
+    />
+    <meta
+      property="twitter:image"
+      content="https://piyush-salunke.vercel.app//images/face.png"
+    />
+
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="preload" href="./images/face.png" as="image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Piyush Salunke",
+        "jobTitle": "Engineer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "FORVIA Faurecia R&D"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Pimpri Chinchwad College Of Engineering"
+        },
+        "url": "https://piyush-salunke.vercel.app/",
+        "sameAs": [
+          "https://www.linkedin.com/in/piyushsalunke/",
+          "https://github.com/piyush-salunke",
+          "https://www.facebook.com/profile.php?id=100011606171334",
+          "https://www.instagram.com/piyush_salunke/"
+        ],
+        "image": "https://piyush-salunke.vercel.app/images/face.png",
+        "description": "Engineer at FORVIA Faurecia R&D, specializing in Generative AI, Automation, and Electronics."
+      }
+    </script>
+
+    <link rel="canonical" href="https://piyush-salunke.vercel.app" />
   </head>
 
   <body>
@@ -48,15 +125,27 @@
     </header>
     <!-- End header -->
 
+    <!-- <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#lead">Home</a></li>
+        <li class="breadcrumb-item"><a href="#about">About</a></li>
+        <li class="breadcrumb-item"><a href="#experience">Experience</a></li>
+        <li class="breadcrumb-item"><a href="#education">Education</a></li>
+        <li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+        <li class="breadcrumb-item"><a href="#skills">Skills</a></li>
+        <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+      </ol>
+    </nav> -->
+
     <div id="lead">
       <div id="lead-content">
-        <br>
-        <br>
-        <img src="./images/face.png" class="face"/>
-        <br>
-        <br>
+        <br />
+        <br />
+        <img src="./images/face.png" class="face" />
+        <br />
+        <br />
         <h1>Piyush Salunke</h1>
-        <h2>GET at Uno Minda Electric Vehicle Systems Pvt. Ltd.</h2>
+        <h2>Engineer at FORVIA Faurecia R&D</h2>
         <a href="pdf/resume.pdf" target="_blank" class="btn-rounded-white"
           >Download Resume</a
         >
@@ -74,288 +163,395 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="heading">About Me</h2>
+    <main>
+      <article id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2 class="heading">About Me</h2>
+            </div>
+            <div class="col-md-8">
+              <ul style="list-style-type: none">
+                <li>
+                  👨‍🎓 Currently shaping my career as an <b>Engineer</b> (<b
+                    >Generative AI</b
+                  >
+                  and <b>Automation</b>) at <b>FORVIA Electronics</b> (formerly
+                  <b>Faurecia Clarion Electronics</b>).
+                </li>
+                <br />
+                <li>
+                  🌟 🔧 My toolkit includes expertise in <b>LabVIEW</b>,
+                  <b>Vision Development Module</b>, <b>Vision Builder AI</b>,
+                  <b>TestStand</b> for Automated Hardware In Loop (<b>HIL</b>)
+                  Setup Development, <b>Generative AI</b> and
+                  <b>Altium Designer</b> for <b>PCB Designing</b>.
+                </li>
+                <br />
+                <li>
+                  💡 🤖 In my college, I had the privilege of leading the
+                  <b>electronics development</b> efforts at
+                  <b>Team Automatons</b>, the robotics R&D team of
+                  <b>Pimpri Chinchwad College of Engineering, Pune</b>.
+                </li>
+                <br />
+                <li>
+                  🚀 💡 Throughout my journey, I've been fortunate to work on
+                  <b>robotics projects</b> that have deepened my understanding
+                  of <b>embedded systems</b> and <b>circuit design</b>.
+                </li>
+                <br />
+                <li>
+                  🤖⚙️ 🔍 Exploring the world of <b>electronics</b> has always
+                  been my passion, and I'm excited to continue learning,
+                  innovating, and contributing to the field. Let's connect and
+                  explore opportunities together! 🌐🤝
+                </li>
+                <br />
+              </ul>
+            </div>
           </div>
-          <div class="col-md-8">
+        </div>
+      </article>
+      <!-- End #about -->
+
+      <article id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+          <div data-date="June 2024 – Present">
+            <h3>FORVIA</h3>
+            <h4>Engineer</h4>
             <p>
-              Working as Graduate Engineer Trainee at Uno Minda in Electric
-              Vehicle team. Former Electronics Lead at Team Automatons, the
-              robotics team of Pimpri Chinchwad College of Engineering, Pune.
-              Skilled in Printed Circuit Board (PCB) designing. I also have some
-              knowledge of Machine Learning, Deep Learning, Microcontrollers and
-              sensors used in Robotics.
+              Generative AI, Large Language Models, Deep Learning, Python, Test
+              Automation, LabVIEW, NI TestStand
+            </p>
+          </div>
+
+          <div data-date="November 2022 – May 2024">
+            <h3>FORVIA</h3>
+            <h4>Graduate Engineering Trainee</h4>
+            <p></p>
+          </div>
+
+          <div data-date="July 2022 – November 2022">
+            <h3>UNO MINDA Group</h3>
+            <h4>Graduate Engineering Trainee</h4>
+            <p></p>
+          </div>
+
+          <div data-date="September 2018 – July 2022">
+            <h3>
+              <a href="https://teamautomatons.in/" target="_blank"
+                >Team Automatons</a
+              >
+            </h3>
+            <h4>Electronics Lead</h4>
+            <p>Jul 2021 - Jul 2022</p>
+
+            <br />
+            <h4>Senior Printed Circuit Board Design Engineer</h4>
+            <p>Oct 2020 - Jul 2021</p>
+            <p>
+              Managed PCB designing and manufacturing system. Designed and
+              manufactured Printed Circuit Boards of robots for ABU Robocon, an
+              international robotics competition. I also have designed PCB of a
+              customized motor driver which had some special features.
+            </p>
+
+            <br />
+            <h4>Printed Circuit Board Designer</h4>
+            <p>Sep 2018 - Oct 2020</p>
+            <p>
+              Designed and manufactured Printed Circuit Boards of robots for ABU
+              Robocon, an international robotics competition.
             </p>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- End #about -->
+      </article>
+      <!-- End #experience -->
 
-    <div id="experience" class="background-alt">
-      <h2 class="heading">Experience</h2>
-      <div id="experience-timeline">
-        <div data-date="July 2022 – Present">
-          <h3>UNO MINDA Group</h3>
-          <h4>Graduate Engineering Trainee</h4>
-          <p></p>
-        </div>
-
-        <div data-date="September 2018 – July 2022">
+      <article id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
           <h3>
-            <a href="https://teamautomatons.in/" target="_blank"
-              >Team Automatons</a
+            <a href="http://www.pccoepune.com/" target="_blank"
+              >Pimpri Chinchwad College Of Engineering</a
             >
           </h3>
-          <h4>Electronics Lead</h4>
-          <p>Jul 2021 - Jul 2022</p>
-
-          <br />
-          <h4>Senior Printed Circuit Board Design Engineer</h4>
-          <p>Oct 2020 - Jul 2021</p>
+          <span class="education-date">2018 - 2022</span>
+          <h4>
+            BE - Bachelor of Engineering, Electrical, Electronics and
+            Communications Engineering
+          </h4>
           <p>
-            Managed PCB designing and manufacturing system. Designed and
-            manufactured Printed Circuit Boards of robots for ABU Robocon, an
-            international robotics competition. I also have designed PCB of a
-            customized motor driver which had some special features.
-          </p>
-
-          <br />
-          <h4>Printed Circuit Board Designer</h4>
-          <p>Sep 2018 - Oct 2020</p>
-          <p>
-            Designed and manufactured Printed Circuit Boards of robots for ABU
-            Robocon, an international robotics competition.
+            <b>Grade: 9.08(SGPA)</b>
+            <br />
+            Activities and Societies: Member of PCCOE Robotics Team Automatons
           </p>
         </div>
-      </div>
-    </div>
-    <!-- End #experience -->
+        <!-- End .education-block -->
 
-    <div id="education">
-      <h2 class="heading">Education</h2>
-      <div class="education-block">
-        <h3>
-          <a href="http://www.pccoepune.com/" target="_blank"
-            >Pimpri Chinchwad College Of Engineering</a
-          >
-        </h3>
-        <span class="education-date">2018 - 2022</span>
-        <h4>
-          BE - Bachelor of Engineering, Electrical, Electronics and
-          Communications Engineering
-        </h4>
-        <p>
-          <b>Grade: 9.08(SGPA)</b>
-          <br />
-          Activities and Societies: Member of PCCOE Robotics Team Automatons
-        </p>
-      </div>
-      <!-- End .education-block -->
-
-      <div class="education-block">
-        <h3>
-          <a href="https://www.fergusson.edu/" target="_blank"
-            >Fergusson College</a
-          >
-        </h3>
-        <span class="education-date">2016 - 2018</span>
-        <h4>HSC, Science</h4>
-      </div>
-      <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-      <h2 class="heading">Projects</h2>
-      <div class="container">
-        <div class="row">
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Portable health monitoring system using cloud technology</h3>
-              <p>Jan 2021 - present</p>
-              <p>
-                A device which continuously monitors the health parameters of
-                the user and stores it on clous. In case of health emergency
-                (detected by the sensors), relatives of the user are notified by
-                a phone call, SMS or Email.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Autonomous Mobile Robot Base With Modular Extensions</h3>
-              <p>Jan 2021 - May 2022</p>
-              <p>
-                Developed a generic AMR base chassis having ability to navigate
-                from one point to another in dynamic environments and can be
-                used to mount any additional attachments like a robotic arm,
-                storage units, etc. as per the needs of the end-user. Our design
-                used ROS for processing all the sensor data and path planning
-                for the robot using advanced sensors like the LiDAR, Tracking
-                Camera, Depth Camera and IMU for SLAM and Autonomous Navigation.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>DC Motor Driver</h3>
-              <p>Nov 2020 - Feb 2021</p>
-              <p>
-                Designed PCB of High Power DC motor driver. This motor driver
-                provides high initial acceleration.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Protection Circuit</h3>
-              <p>Nov 2020 - Feb 2021</p>
-              <p>
-                Designed and tested protection circuit which provides features
-                such as overcurrent protection, overvoltage and undervoltage
-                protection, reverse polarity protection. If any of these case
-                occurs in the main circuit (which is to be protected), the
-                protection circuit is open circuited and the buzzer rings. The
-                limits for overcurrent, overvoltage and undervoltage can be set
-                by the user.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Rugby Playing Robots</h3>
-              <p>Dec 2019 - Jan 2020</p>
-              <p>
-                Designed PCBs of two Rugby Playing Robots for ABU Robocon 2020,
-                an international robotics competition. In this competition my
-                team (Team Automatons) got 4th national rank and Judges' Special
-                Award.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Automated Guided Vehicle</h3>
-              <p>Sep 2018 - Jun 2019</p>
-              <p>
-                Worked as junior electronics engineer. This robot was developed
-                for ABU Robocon 2019, an international robotics competition. We
-                achieved 12th rank at national level and won MathWorks modelling
-                award.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <img src="images/robot.png" />
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Autonomous Quadruped Robot</h3>
-              <p>Sep 2018 - Jun 2019</p>
-              <p>
-                Worked as junior electronics engineer. This robot was developed
-                for ABU Robocon 2019, an international robotics competition. We
-                achieved 12th rank at national level and won MathWorks modelling
-                award.
-              </p>
-            </div>
-            <!-- End .project-info -->
-          </div>
-          <!-- End .project -->
+        <div class="education-block">
+          <h3>
+            <a href="https://www.fergusson.edu/" target="_blank"
+              >Fergusson College</a
+            >
+          </h3>
+          <span class="education-date">2016 - 2018</span>
+          <h4>HSC, Science</h4>
         </div>
-      </div>
-    </div>
-    <!-- End #projects -->
+        <!-- End .education-block -->
+      </article>
+      <!-- End #education -->
 
-    <div id="skills">
-      <h2 class="heading">Skills</h2>
-      <ul>
-        <li>Eagle PCB</li>
-        <li>Robotics</li>
-        <li>Research</li>
-        <li>Printed Circuit Board(PCB) Design</li>
-        <li>Strategic Planning</li>
-        <li>Electronics</li>
-        <li>Machine Learning</li>
-        <li>Arduino</li>
-        <li>Altium Designer</li>
-        <li>Proteus</li>
-        <li>Deep Learning</li>
-        <li>Altium</li>
-      </ul>
-    </div>
-    <!-- End #skills -->
+      <article id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+          <div class="row">
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Test cases generator application</h3>
+                <p>Apr 2024 - Present</p>
+                <p>
+                  A Generative AI based application that takes system
+                  requirements as input and generates test cases.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
 
-    <div id="contact">
-      <h2>Get in Touch</h2>
-      <div id="contact-form">
-        <form
-          class="gform"
-          method="POST"
-          action="https://script.google.com/macros/s/AKfycbwsb3rQoNir-5hjK1qzNqLbPLDWP6rZ2bsJRYZy-gR5rM2mhs_gEVAQz4tzLAFxfMGs/exec"
-        >
-          <input type="email" name="email" placeholder="Your email" required />
-          <textarea
-            name="message"
-            placeholder="Your message"
-            required
-          ></textarea>
-          <button type="submit">Send 🚀</button>
-          <div style="display: none" class="thankyou_message">
-            <h2>Thanks for contacting us! We will get back to you soon!</h2>
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Automated vehicle cranking HIL setup for IVI testing</h3>
+                <p>Feb 2023 - Jul 2023</p>
+                <p>
+                  An automated Hardware In Loop (HIL) setup for testing the
+                  effect of Vehicle Cranking on In-Vehicle Infotainment (IVI). A
+                  simulation environment of Cranking was provided to the IVI.
+                  Softwares used: LabVIEW (for programming), Vision Development
+                  Module (for image processing), NI TestStand (for test
+                  management).
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Autonomous Mobile Robot Base With Modular Extensions</h3>
+                <p>Jan 2021 - May 2022</p>
+                <p>
+                  Developed a generic AMR chassis capable of navigating dynamic
+                  environments and supporting additional attachments like
+                  robotic arms, storage units, etc., based on end-user needs.
+                  Our design uses ROS for sensor data processing and path
+                  planning with advanced sensors like LiDAR, Tracking Camera,
+                  Depth Camera, and IMU for SLAM and Autonomous Navigation.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Protection Circuit</h3>
+                <p>Nov 2020 - Feb 2021</p>
+                <p>
+                  Designed and tested protection circuit which provides features
+                  such as overcurrent protection, overvoltage and undervoltage
+                  protection, reverse polarity protection. If any of these case
+                  occurs in the main circuit (which is to be protected), the
+                  protection circuit is open circuited and the buzzer rings. The
+                  limits for overcurrent, overvoltage and undervoltage can be
+                  set by the user.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>DC Motor Driver</h3>
+                <p>Nov 2020 - Feb 2021</p>
+                <p>
+                  Designed PCB of High Power DC motor driver. This motor driver
+                  provides high initial acceleration.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>
+                  Portable health monitoring system using cloud technology
+                </h3>
+                <p>Jan 2021 - Feb 2021</p>
+                <p>
+                  A device which continuously monitors the health parameters of
+                  the user and stores it on cloud. In case of health emergency
+                  (detected by the sensors), relatives of the user are notified
+                  by a phone call, SMS or Email.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Rugby Playing Robots</h3>
+                <p>Dec 2019 - Jan 2020</p>
+                <p>
+                  Designed PCBs of two Rugby Playing Robots for ABU Robocon
+                  2020, an international robotics competition. In this
+                  competition my team (Team Automatons) got 4th national rank
+                  and Judges' Special Award.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Automated Guided Vehicle</h3>
+                <p>Sep 2018 - Jun 2019</p>
+                <p>
+                  Worked as junior electronics engineer. This robot was
+                  developed for ABU Robocon 2019, an international robotics
+                  competition. We achieved 12th rank at national level and won
+                  MathWorks modelling award.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+              <div class="project-image">
+                <img src="images/robot.png" />
+              </div>
+              <!-- End .project-image -->
+              <div class="project-info">
+                <h3>Autonomous Quadruped Robot</h3>
+                <p>Sep 2018 - Jun 2019</p>
+                <p>
+                  Worked as junior electronics engineer. This robot was
+                  developed for ABU Robocon 2019, an international robotics
+                  competition. We achieved 12th rank at national level and won
+                  MathWorks modelling award.
+                </p>
+              </div>
+              <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
           </div>
-        </form>
-      </div>
-      <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+        </div>
+      </article>
+      <!-- End #projects -->
+
+      <article id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+          <li>English</li>
+          <li>German</li>
+          <li>Large Language Models(LLM)</li>
+          <li>Generative AI</li>
+          <li>Natural Language Processing(NLP)</li>
+          <li>Artificial Intelligence(AI)</li>
+          <li>Python</li>
+          <li>Tensorflow</li>
+          <li>Embedded C</li>
+          <li>Circuit Design</li>
+          <li>Sensors</li>
+          <li>Image Processing</li>
+          <li>HIL</li>
+          <li>Test Automation</li>
+          <li>NI TestStand</li>
+          <li>LabVIEW</li>
+          <li>Eagle PCB</li>
+          <li>Robotics</li>
+          <li>Research</li>
+          <li>Printed Circuit Board(PCB) Design</li>
+          <li>Strategic Planning</li>
+          <li>Electronics</li>
+          <li>Machine Learning</li>
+          <li>Arduino</li>
+          <li>Altium Designer</li>
+          <li>Proteus</li>
+          <li>Deep Learning</li>
+          <li>Altium</li>
+        </ul>
+      </article>
+      <!-- End #skills -->
+
+      <article id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+          <form
+            class="gform"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbwsb3rQoNir-5hjK1qzNqLbPLDWP6rZ2bsJRYZy-gR5rM2mhs_gEVAQz4tzLAFxfMGs/exec"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button type="submit">Send 🚀</button>
+            <div style="display: none" class="thankyou_message">
+              <h2>Thanks for contacting us! We will get back to you soon!</h2>
+            </div>
+          </form>
+        </div>
+        <!-- End #contact-form -->
+      </article>
+      <!-- End #contact -->
+    </main>
 
     <footer>
       <div class="container">
@@ -404,7 +600,7 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.min.js" defer></script>
     <script>
       let a = new Date().getFullYear();
       document.querySelector("#current-year").innerHTML = a + ", ";

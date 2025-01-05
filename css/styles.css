@@ -14,8 +14,8 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
 }
-.face{
-  width:30rem;
+.face {
+  width: 30rem;
   background: #00000050;
   border-radius: 50%;
 }
@@ -254,12 +254,15 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 0.9em;
+  text-shadow: 2px 2px 2px #000;
 }
 #lead-content h2 {
-  color: #a0cfee;
+  color: #fff;
   font-weight: 500;
   font-size: 2.25em;
+  margin-top: 10px;
   margin-bottom: 15px;
+  text-shadow: 1px 1px 2px #000;
 }
 #lead-overlay {
   position: absolute;
@@ -631,7 +634,7 @@ footer {
   padding: 0 0 0 15px;
 }
 @media only screen and (max-width: 750px) {
-  .face{
+  .face {
     width: 20rem;
   }
   #experience-timeline:before,
@@ -725,7 +728,7 @@ footer {
   .project-image img {
     width: 8rem;
     padding: 3rem;
-    margin: 3rem
+    margin: 3rem;
   }
   .project-info {
     position: relative;
